@@ -58,7 +58,8 @@ En iyi Türkçe yapay zekâ promptları koleksiyonu.<br/>
 
 **[📺 lumio-releases](https://github.com/future01software/lumio-releases)**<br/>
 Lumio IPTV kurulum dosyaları (Windows MSI, Android APK).<br/>
-<img src="https://img.shields.io/github/v/release/future01software/lumio-releases?style=flat-square&color=3b9eff&labelColor=0a1a24&label=sürüm"/>
+<img src="https://img.shields.io/badge/-Windows-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
 
 </td>
 </tr>
