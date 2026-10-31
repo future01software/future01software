@@ -94,8 +94,8 @@ SkyCopilot MVP: erken aşama prototip.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=future01software&show_icons=true&hide_border=true&theme=transparent&title_color=14e0c4&icon_color=3b9eff&text_color=8b9da3&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=future01software&layout=compact&hide_border=true&theme=transparent&title_color=14e0c4&text_color=8b9da3"/>
+<img src="./assets/stats.svg" alt="GitHub istatistikleri" width="49%"/>
+<img src="./assets/langs.svg" alt="En çok kullanılan diller" width="49%"/>
 
 <img src="https://streak-stats.demolab.com/?user=future01software&hide_border=true&background=00000000&ring=14e0c4&fire=3b9eff&currStreakLabel=14e0c4&currStreakNum=8b9da3&sideNums=8b9da3&sideLabels=5d7480&dates=5d7480"/>
 
