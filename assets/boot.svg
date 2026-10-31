@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Açılış ekranı: future01 sistem kontrolü — İSG modülleri, web ve yapay zekâ araçları hazır.">
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .l{opacity:0;animation:show 12s steps(1) infinite}
+    @keyframes show{0%{opacity:0}100%{opacity:1}}
+    .l1{animation-name:a1}.l2{animation-name:a2}.l3{animation-name:a3}.l4{animation-name:a4}
+    .l5{animation-name:a5}.l6{animation-name:a6}.l7{animation-name:a7}
+    @keyframes a1{0%,4%{opacity:0}5%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a2{0%,12%{opacity:0}13%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a3{0%,20%{opacity:0}21%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a4{0%,28%{opacity:0}29%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a5{0%,36%{opacity:0}37%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a6{0%,46%{opacity:0}47%,96%{opacity:1}97%,100%{opacity:0}}
+    @keyframes a7{0%,56%{opacity:0}57%,96%{opacity:1}97%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="#0a1117" stroke="#1d2b33"/>
+  <path d="M0.5 44H1199.5" stroke="#14e0c4" stroke-opacity="0.6"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="22" r="6" fill="#28c840"/>
+  <text x="600" y="27" text-anchor="middle" class="mono" font-size="12" fill="#5d7480">future01 — zsh — 120×24</text>
+
+  <g class="mono" font-size="15">
+    <text class="l l1" x="40" y="84"><tspan fill="#14e0c4">&gt;</tspan><tspan fill="#d6e4e2"> booting </tspan><tspan fill="#14e0c4">future01</tspan><tspan fill="#d6e4e2"> v1.0 ...</tspan></text>
+    <text class="l l2" x="40" y="114"><tspan fill="#28c840">[  OK  ]</tspan><tspan fill="#9fb7b4"> İSG modülleri yüklendi ............ risk · eğitim · kaza · uygunsuzluk</tspan></text>
+    <text class="l l3" x="40" y="144"><tspan fill="#28c840">[  OK  ]</tspan><tspan fill="#9fb7b4"> Web katmanı ....................... HTML · CSS · JavaScript</tspan></text>
+    <text class="l l4" x="40" y="174"><tspan fill="#28c840">[  OK  ]</tspan><tspan fill="#9fb7b4"> Veri katmanı ...................... Firebase · Python</tspan></text>
+    <text class="l l5" x="40" y="204"><tspan fill="#28c840">[  OK  ]</tspan><tspan fill="#9fb7b4"> Yapay zekâ araçları ............... prompt · otomasyon</tspan></text>
+    <text class="l l6" x="40" y="238"><tspan fill="#3b9eff">[ READY ]</tspan><tspan fill="#e8f4f2"> Tüm sistemler hazır. Önce güvenlik, sonra kod.</tspan></text>
+    <text class="l l7" x="40" y="270"><tspan fill="#14e0c4">&gt;</tspan><tspan class="cur" fill="#14e0c4"> █</tspan></text>
+  </g>
+</svg>

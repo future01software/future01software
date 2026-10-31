@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Merhaba, ben future01 — İSG yazılımları, web uygulamaları ve yapay zekâ araçları.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121a"/>
+      <stop offset="0.6" stop-color="#0a1a24"/>
+      <stop offset="1" stop-color="#061017"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#14e0c4" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#14e0c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14e0c4"/>
+      <stop offset="1" stop-color="#3b9eff"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14e0c4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#14e0c4" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#14e0c4" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="380" rx="24"/></clipPath>
+    <filter id="glow01" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="g01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14e0c4"/><stop offset="1" stop-color="#3b9eff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .blink{animation:blink 1.6s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    .spin{transform-origin:960px 190px;animation:spin 4s linear infinite}
+    .spinr{transform-origin:960px 190px;animation:spin 18s linear infinite reverse}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .ping{transform-origin:center;transform-box:fill-box;animation:ping 4s ease-out infinite}
+    .ping2{animation-delay:1.7s}
+    @keyframes ping{0%,70%{opacity:0}75%{opacity:1}100%{opacity:.15}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <rect width="1200" height="380" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="24" fill="none" stroke="#14e0c4" stroke-opacity="0.18"/>
+
+  <!-- status -->
+  <circle class="blink" cx="66" cy="78" r="5" fill="#14e0c4"/>
+  <text x="82" y="83" class="mono" font-size="14" letter-spacing="3" fill="#14e0c4">F U T U R E / / 0 1   ·   O N L I N E</text>
+
+  <!-- headline -->
+  <text x="60" y="160" class="sans" font-size="58" font-weight="800" fill="#e8f4f2">Merhaba,</text>
+  <g aria-label="ben future01">
+    <path d="M87.83 228L63.02 228L63.02 184.88L71.59 184.88L71.59 195.52L87.83 195.52Q90.07 195.52 91.92 196.64Q93.77 197.76 94.86 199.61Q95.95 201.46 95.95 203.64L95.95 203.64L95.95 219.88Q95.95 222.06 94.86 223.91Q93.77 225.76 91.92 226.88Q90.07 228 87.83 228L87.83 228M71.59 204.09L71.59 219.43L87.38 219.43L87.38 204.09L71.59 204.09M133.14 228L108.33 228Q106.14 228 104.3 226.88Q102.45 225.76 101.33 223.91Q100.21 222.06 100.21 219.88L100.21 219.88L100.21 203.64Q100.21 201.46 101.33 199.61Q102.45 197.76 104.3 196.64Q106.14 195.52 108.33 195.52L108.33 195.52L125.02 195.52Q127.26 195.52 129.1 196.64Q130.95 197.76 132.04 199.61Q133.14 201.46 133.14 203.64L133.14 203.64L133.14 216.07L108.78 216.07L108.78 219.43L133.14 219.43L133.14 228M108.78 204.09L108.78 208.57L124.57 208.57L124.57 204.09L108.78 204.09M147.7 228L139.13 228L139.13 195.52L163.94 195.52Q166.18 195.52 168.02 196.64Q169.87 197.76 170.96 199.61Q172.06 201.46 172.06 203.64L172.06 203.64L172.06 228L163.49 228L163.49 204.09L147.7 204.09L147.7 228" fill="#6f8a88"/>
+    <path d="M204.65 228L196.08 228L196.08 193Q196.08 190.82 197.2 188.97Q198.32 187.12 200.17 186Q202.02 184.88 204.26 184.88L204.26 184.88L216.69 184.88L216.69 193.5L204.65 193.5L204.65 195.52L216.69 195.52L216.69 204.09L204.65 204.09L204.65 228M246.09 228L229.4 228Q227.16 228 225.31 226.88Q223.46 225.76 222.37 223.91Q221.28 222.06 221.28 219.88L221.28 219.88L221.28 195.52L229.85 195.52L229.85 219.43L245.64 219.43L245.64 195.52L254.21 195.52L254.21 219.88Q254.21 222.06 253.12 223.91Q252.02 225.76 250.18 226.88Q248.33 228 246.09 228L246.09 228M279.41 228L266.98 228Q264.74 228 262.89 226.88Q261.04 225.76 259.92 223.91Q258.8 222.06 258.8 219.88L258.8 219.88L258.8 185.89L267.37 185.89L267.37 195.52L279.41 195.52L279.41 204.09L267.37 204.09L267.37 219.43L279.41 219.43L279.41 228M308.86 228L292.18 228Q289.94 228 288.09 226.88Q286.24 225.76 285.15 223.91Q284.06 222.06 284.06 219.88L284.06 219.88L284.06 195.52L292.62 195.52L292.62 219.43L308.42 219.43L308.42 195.52L316.98 195.52L316.98 219.88Q316.98 222.06 315.89 223.91Q314.8 225.76 312.95 226.88Q311.1 228 308.86 228L308.86 228M331.49 228L322.92 228L322.92 203.64Q322.92 201.46 324.04 199.61Q325.16 197.76 327.01 196.64Q328.86 195.52 331.1 195.52L331.1 195.52L349.02 195.52L349.02 204.09L331.49 204.09L331.49 228M385.81 228L361 228Q358.82 228 356.97 226.88Q355.12 225.76 354 223.91Q352.88 222.06 352.88 219.88L352.88 219.88L352.88 203.64Q352.88 201.46 354 199.61Q355.12 197.76 356.97 196.64Q358.82 195.52 361 195.52L361 195.52L377.69 195.52Q379.93 195.52 381.78 196.64Q383.62 197.76 384.72 199.61Q385.81 201.46 385.81 203.64L385.81 203.64L385.81 216.07L361.45 216.07L361.45 219.43L385.81 219.43L385.81 228M361.45 204.09L361.45 208.57L377.24 208.57L377.24 204.09L361.45 204.09" fill="#e8f4f2"/>
+    <path d="M423.38 228L400.14 228Q397.9 228 396.06 226.74Q394.21 225.48 393.09 223.49Q391.97 221.5 391.97 219.32L391.97 219.32L391.97 196.02Q391.97 193.78 393.09 191.88Q394.21 189.98 396.06 188.83Q397.9 187.68 400.14 187.68L400.14 187.68L423.38 187.68Q425.62 187.68 427.47 188.83Q429.32 189.98 430.44 191.88Q431.56 193.78 431.56 196.02L431.56 196.02L431.56 219.32Q431.56 221.5 430.44 223.49Q429.32 225.48 427.47 226.74Q425.62 228 423.38 228L423.38 228M422.99 203.86L405.13 218.87L422.99 218.87L422.99 203.86M400.54 196.47L400.54 211.48L418.4 196.47L400.54 196.47M457.32 228L448.75 228L448.75 200.73L446.9 203.02L435.54 203.02L448.42 187.68L457.32 187.68L457.32 228" fill="url(#g01)" filter="url(#glow01)"/>
+    <circle cx="469" cy="222" r="6" fill="#14e0c4" class="blink"/>
+  </g>
+  <text x="62" y="272" class="sans" font-size="20" fill="#9fb7b4">İSG yazılımları, web uygulamaları ve yapay zekâ araçları.</text>
+
+  <!-- tags -->
+  <g class="mono" font-size="13" fill="#bfe9e2">
+    <rect x="60" y="298" width="104" height="30" rx="15" fill="#0f2630" stroke="#14e0c4" stroke-opacity="0.3"/>
+    <text x="112" y="318" text-anchor="middle">JavaScript</text>
+    <rect x="174" y="298" width="84" height="30" rx="15" fill="#0f2630" stroke="#14e0c4" stroke-opacity="0.3"/>
+    <text x="216" y="318" text-anchor="middle">HTML/CSS</text>
+    <rect x="268" y="298" width="76" height="30" rx="15" fill="#0f2630" stroke="#14e0c4" stroke-opacity="0.3"/>
+    <text x="306" y="318" text-anchor="middle">Python</text>
+    <rect x="354" y="298" width="86" height="30" rx="15" fill="#0f2630" stroke="#14e0c4" stroke-opacity="0.3"/>
+    <text x="397" y="318" text-anchor="middle">Firebase</text>
+    <rect x="450" y="298" width="62" height="30" rx="15" fill="#0f2630" stroke="#14e0c4" stroke-opacity="0.3"/>
+    <text x="481" y="318" text-anchor="middle">AI</text>
+  </g>
+
+  <!-- radar -->
+  <g fill="none" stroke="#14e0c4">
+    <circle cx="960" cy="190" r="130" stroke-opacity="0.18"/>
+    <circle cx="960" cy="190" r="95" stroke-opacity="0.22"/>
+    <circle cx="960" cy="190" r="60" stroke-opacity="0.28"/>
+    <circle cx="960" cy="190" r="25" stroke-opacity="0.4"/>
+    <path d="M830 190H1090M960 60V320" stroke-opacity="0.12"/>
+    <g class="spinr"><circle cx="960" cy="190" r="150" stroke="#3b9eff" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="4 14"/></g>
+  </g>
+  <g class="spin">
+    <path d="M960 190 L1090 190 A130 130 0 0 0 1052 98 Z" fill="url(#sweep)" opacity="0.6"/>
+    <line x1="960" y1="190" x2="1090" y2="190" stroke="#14e0c4" stroke-width="2"/>
+  </g>
+  <circle class="ping" cx="1030" cy="140" r="5" fill="#14e0c4"/>
+  <circle class="ping ping2" cx="905" cy="245" r="4" fill="#3b9eff"/>
+  <!-- center hex -->
+  <polygon points="960,172 976,181 976,199 960,208 944,199 944,181" fill="#0f2630" stroke="#14e0c4" stroke-width="2"/>
+  <circle cx="960" cy="190" r="5" fill="#e8f4f2"/>
+</svg>
